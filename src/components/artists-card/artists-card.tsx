@@ -13,7 +13,7 @@ const ArtistsCard = (props: ArtistsCardProps) => {
         Artistes
       </h2>
       <div className="flex flex-col gap-1">
-        <h3 className="text-foreground-primary text-md">~ Gentle Mates</h3>
+        <h3 className="text-foreground-primary text-md">~ DVM</h3>
         <div className="flex items-center gap-2">
           <div
             className={`rounded-lg p-[1px] ${
@@ -25,7 +25,7 @@ const ArtistsCard = (props: ArtistsCardProps) => {
           >
             <img
               src={m8_1Icon}
-              alt="Gentle Mates"
+              alt="DVM"
               className="w-12 h-[46px] cursor-pointer rounded-md"
               onClick={() =>
                 props.onBannerChange({ artist: 'm8', bannerNumber: 1 })
@@ -42,7 +42,7 @@ const ArtistsCard = (props: ArtistsCardProps) => {
           >
             <img
               src={m8_2Icon}
-              alt="Gentle Mates"
+              alt="DVM"
               className="w-12 h-[46px] cursor-pointer rounded-md"
               onClick={() =>
                 props.onBannerChange({ artist: 'm8', bannerNumber: 2 })
