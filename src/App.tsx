@@ -103,7 +103,7 @@ const App = () => {
             Créer une bannière{' '}
             <span className="whitespace-nowrap">
               <M8Logo />
-              Gentle Mates,
+              DVM,
             </span>
             <br />
             <span className="text-foreground-accent">en quelques clics</span>
@@ -116,7 +116,7 @@ const App = () => {
             <p className="text-foreground-accent text-xs text-center mt-5 py-1.5 px-3 bg-background-accent rounded-full w-fit mx-auto">
               Powered by
               <span className="font-semibold ml-2">
-                <TGSLogo /> The Green Suits
+                <TGSLogo /> The DVM Ultras
               </span>
             </p>
           </a>
